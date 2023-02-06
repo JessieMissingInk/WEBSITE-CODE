@@ -99,6 +99,11 @@ padding: 10px;
     width: 100%;
 }
 
+.img_about{
+  border: 1px whitesmoke;
+  width: 100%
+}
+
 .typeset-1 {
     font-family: cordana;
     font-size: 54px;
