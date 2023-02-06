@@ -14,21 +14,20 @@
 
 <div class="sidenav"> 
  <h1 class="typeset-1">Jessica Holmes</h1>
-<div><img class src="https://scontent-lhr8-2.xx.fbcdn.net/v/t39.30808-6/318626474_1831800037174448_7116779790038619596_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=VHiMxc7j9uoAX82Rzg4&tn=SZ72fprSL6z2Jr4j&_nc_ht=scontent-lhr8-2.xx&oh=00_AfBxM-WWIqUs-Rj4aQgIe4OJo1WwerlH-reXgvGupdKVSg&oe=63E0AC37" alt="profile pic" width="60%"></div>
-  <a href="#">Home Page</a>
-  <a href="#">About</a>
-  <a href="#">Gallery- ART</a>
-  <a href="#">Gallery- 3D MODELS</a>
+<div><img class="profile-pic" class src="https://scontent-lhr8-2.xx.fbcdn.net/v/t39.30808-6/318626474_1831800037174448_7116779790038619596_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=VHiMxc7j9uoAX82Rzg4&tn=SZ72fprSL6z2Jr4j&_nc_ht=scontent-lhr8-2.xx&oh=00_AfBxM-WWIqUs-Rj4aQgIe4OJo1WwerlH-reXgvGupdKVSg&oe=63E0AC37" alt="profile pic" width="60%"></div>
+  <a href="Homepage.html">Home Page</a>
+  <a href="About.html">About</a>
+  <a href="Gallery_ART.html">Gallery- ART</a>
+  <a href="Gallery_3D Models.html">Gallery- 3D MODELS</a>
 </div>
 
 <div class="content">
 
-  <header class="typeset-5">View my latest work:</header>
+  <header class="typeset-5" class="art_header">View my latest work:</header>
 
   <div class="slide_container">
 
-    <!-- Full-width images with number text -->
-    <div class="mySlides">
+     <div class="mySlides">
       <div class="numbertext">1 / 6</div>
         <img src="https://static.wixstatic.com/media/1d50f0_e1fab58a9d0d4a38ba5f23c8236ab2c8~mv2.jpg/v1/fit/w_824,h_906,q_90/1d50f0_e1fab58a9d0d4a38ba5f23c8236ab2c8~mv2.webp" style="width:100%">
     </div>
@@ -58,36 +57,35 @@
         <img src="https://static.wixstatic.com/media/1d50f0_8613e959d1414f8397d39a42d92a278c~mv2.jpg/v1/fit/w_1366,h_906,q_90/1d50f0_8613e959d1414f8397d39a42d92a278c~mv2.webp" style="width:100%">
     </div>
   
-    <!-- Next and previous buttons -->
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
   
-    <!-- Image text -->
-    <div class="caption-container">
+       <div class="caption-container">
       <p id="caption"></p>
     </div>
   
-    <!-- Thumbnail images -->
-    <div class="row">
-      <div class="column">
-        <img class="demo cursor" src="https://static.wixstatic.com/media/1d50f0_e1fab58a9d0d4a38ba5f23c8236ab2c8~mv2.jpg/v1/fit/w_824,h_906,q_90/1d50f0_e1fab58a9d0d4a38ba5f23c8236ab2c8~mv2.webp" style="width:100%" onclick="currentSlide(1)" alt="Abstract sunset- poured acrylic">
+
+         <div class="row flex">
+        <div class="column">
+          <img class="demo cursor" src="https://static.wixstatic.com/media/1d50f0_e1fab58a9d0d4a38ba5f23c8236ab2c8~mv2.jpg/v1/fit/w_824,h_906,q_90/1d50f0_e1fab58a9d0d4a38ba5f23c8236ab2c8~mv2.webp" style="width:100%" onclick="currentSlide(1)" alt="Abstract sunset- poured acrylic">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="https://static.wixstatic.com/media/1d50f0_e6a39648ba4c4e969783c3ba8940a637~mv2.jpg/v1/fit/w_824,h_906,q_90/1d50f0_e6a39648ba4c4e969783c3ba8940a637~mv2.webp" style="width:100%" onclick="currentSlide(2)" alt="Colourful sunset- poured acrylic">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="https://static.wixstatic.com/media/1d50f0_f378f0d4b95f4c7ea20fec43764944cb~mv2.jpg/v1/fit/w_824,h_906,q_90/1d50f0_f378f0d4b95f4c7ea20fec43764944cb~mv2.webp" style="width:100%" onclick="currentSlide(3)" alt="Sunset- poured acrylic">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="https://static.wixstatic.com/media/1d50f0_93331bd49b6246f5aedd0e008cd20661~mv2.jpg/v1/fit/w_1366,h_906,q_90/1d50f0_93331bd49b6246f5aedd0e008cd20661~mv2.webp" style="width:100%" onclick="currentSlide(4)" alt="Disturbed water- poured acrylic">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="https://static.wixstatic.com/media/1d50f0_cacbf1af7d634469b853c15de2e8a557~mv2.jpg/v1/fit/w_1366,h_906,q_90/1d50f0_cacbf1af7d634469b853c15de2e8a557~mv2.webp" style="width:100%" onclick="currentSlide(5)" alt="Stormy seas- poured acrylic">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="https://static.wixstatic.com/media/1d50f0_8613e959d1414f8397d39a42d92a278c~mv2.jpg/v1/fit/w_1366,h_906,q_90/1d50f0_8613e959d1414f8397d39a42d92a278c~mv2.webp" style="width:100%" onclick="currentSlide(6)" alt="Flowing river- poured resin">
+        </div>
       </div>
-      <div class="column">
-        <img class="demo cursor" src="https://static.wixstatic.com/media/1d50f0_e6a39648ba4c4e969783c3ba8940a637~mv2.jpg/v1/fit/w_824,h_906,q_90/1d50f0_e6a39648ba4c4e969783c3ba8940a637~mv2.webp" style="width:100%" onclick="currentSlide(2)" alt="Colourful sunset- poured acrylic">
-      </div>
-      <div class="column">
-        <img class="demo cursor" src="https://static.wixstatic.com/media/1d50f0_f378f0d4b95f4c7ea20fec43764944cb~mv2.jpg/v1/fit/w_824,h_906,q_90/1d50f0_f378f0d4b95f4c7ea20fec43764944cb~mv2.webp" style="width:100%" onclick="currentSlide(3)" alt="Sunset- poured acrylic">
-      </div>
-      <div class="column">
-        <img class="demo cursor" src="https://static.wixstatic.com/media/1d50f0_93331bd49b6246f5aedd0e008cd20661~mv2.jpg/v1/fit/w_1366,h_906,q_90/1d50f0_93331bd49b6246f5aedd0e008cd20661~mv2.webp" style="width:100%" onclick="currentSlide(4)" alt="Disturbed water- poured acrylic">
-      </div>
-      <div class="column">
-        <img class="demo cursor" src="https://static.wixstatic.com/media/1d50f0_cacbf1af7d634469b853c15de2e8a557~mv2.jpg/v1/fit/w_1366,h_906,q_90/1d50f0_cacbf1af7d634469b853c15de2e8a557~mv2.webp" style="width:100%" onclick="currentSlide(5)" alt="Stormy seas- poured acrylic">
-      </div>
-      <div class="column">
-        <img class="demo cursor" src="https://static.wixstatic.com/media/1d50f0_8613e959d1414f8397d39a42d92a278c~mv2.jpg/v1/fit/w_1366,h_906,q_90/1d50f0_8613e959d1414f8397d39a42d92a278c~mv2.webp" style="width:100%" onclick="currentSlide(6)" alt="Flowing river- poured resin">
-      </div>
-    </div>
+   
   </div>
 </div>
     
